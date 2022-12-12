@@ -1,0 +1,33 @@
+1st step is to initialize an empty git repository
+git init
+
+2nd step is staging of files/ what files to upload
+git add <file(s)>
+git add */. can add all the files in from directory to be commited later
+
+3rd step is creating a commit that includes all staged changes
+git commit
+
+to add a short message to commit files
+git commit -m "any message"
+
+to check info of your files use command mentioned below:
+git status
+
+to check order of commits which you have done
+git log 
+
+to move between commits, temporarily move to another commit, HEAD pointer tells us that which state/snapshot is currently loaded
+command: git checkout <id> (id of commits can be fetched by using git log), when we fetch old or new file by using ID then that file will appear in that condition in which it was commited before or after changes, in original form, it will show only those files in git log which were commited before that file
+
+to go to desired or root branch to check all commits made by us
+git checkout main/master
+
+undo commits, revert changes of commit by creating a new commit
+git revert <id> 
+
+undo changes by deleting all commits since <id>, be superb careful to use it, Because you will lose all of your data sice that specific commit
+git reset --hard <id>
+
+create this file mentioned below to ignore those files from being added or commited
+.gitignore

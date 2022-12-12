@@ -1,0 +1,17 @@
+to create a new branch, it will have old commits but starting point of this branch will be that one at which commit it will be created, it will have its own files without disturbing other branches anymore
+git branch <name>
+
+git merge <branch name>
+to merge those desired branches later to main branch to keep code in one main branch
+
+to check exiting branches
+git branch
+
+to create a branch and switch to it directly
+git checkout -b <branch-name>
+
+to switch to a branch
+git checkout <branch-name>
+
+to delete a branch
+git branch -D <branch name>
