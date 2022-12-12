@@ -2,7 +2,7 @@ to create a new branch, it will have old commits but starting point of this bran
 git branch <name>
 
 git merge <branch name>
-to merge those desired branches later to main branch to keep code in one main branch
+to merge those desired branches later to main branch to keep code in one main branch, merging branches needs to be commited if it have conflicts 
 
 to check exiting branches
 git branch
